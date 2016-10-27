@@ -16,15 +16,12 @@
     <meta property="og:image" content="" />
     <meta property="og:url" content="http://emilyandtom.org" />
     <meta property="og:site_name" content="Emily and Tom" />
-    <link rel="icon" type="image/png" href="images/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon.ico" sizes="32x32" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon-precomposed" href="/favicon.cio" />
+    <link rel="apple-touch-icon-precomposed" href="/favicon.ico" />
     <link rel="image_src" href="/final.jpg" />
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="http://159.203.119.22/images/UNTOUCHABLE_FINALsm-still.gif" />
-    <link rel="apple-touch-icon" href="http://159.203.119.22/images/UNTOUCHABLE_FINALsm-still.gif" />
-    <link rel="apple-touch-icon-precomposed" href="http://159.203.119.22/images/UNTOUCHABLE_FINALsm-still.gif" />
   
     <style type="text/css">
     * {
@@ -57,24 +54,7 @@
         left: 0;
         background-size: 350px;
     }
-    
-    .ani #good {
-        background: url(/polaroid2.jpg) center no-repeat;
-        background-size: 350px;
-    }
-    
-    .overlay {
-        width: 100vw;
-        height: 100%;
-        z-index: 1;
-        background: url(/final.jpg) no-repeat center center;
-        background-size: 30px 30px;
-        -moz-transition: opacity 0.2s 0.2s ease-in-out;
-        -webkit-transition: opacity 0.2s 0.2s ease-in-out;
-        transition: opacity 0.2s 0.2s ease-in-out;
-        background-color: #f9f9f9;
-        opacity: 1;
-    }
+   
     
     img {
         position: absolute;
@@ -82,35 +62,6 @@
         left: 50%;
         width: 40px;
         margin-left: -20px;
-    }
-    
-    #birds {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        opacity: 0;
-        pointer-events: none;
-    }
-    
-    .ani #birds {
-        opacity: 1.0;
-        transition: 10s ease-in;
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-        #good,
-        .ani #good {
-            width: 100%;
-            height: 100%;
-            background-size: 300px;
-        }
-        .overlay {
-            background-color: #ccc;
-            background-size: 15px 15px;
-        }
     }
     
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
